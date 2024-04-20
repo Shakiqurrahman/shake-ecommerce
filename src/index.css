@@ -102,7 +102,7 @@ body {
     background: white;
     transform: translateY(-100%);
     transition: all 0.3s ease-in-out;
-    color: white;
+    color: blue;
   }
 
   .side-nav {
@@ -112,10 +112,10 @@ body {
     height: 100vh;
     right: 0;
     top: 61px;
-    background: blue;
+    background: white;
     transform: translateY(0);
     transition: all 0.5s ease-in-out;
-    color: white;
+    color: blue;
     padding-top: 40px;
   }
 
