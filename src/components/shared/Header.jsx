@@ -31,12 +31,12 @@ const Header = () => {
                 Home
               </li>
             </NavLink>
-            <NavLink to="/events">
+            <NavLink to="/shop">
               <li
                 className="hover:text-[#2030e0] duration-300"
                 onClick={handleClose}
               >
-                Events
+                Shop
               </li>
             </NavLink>
 
@@ -45,7 +45,7 @@ const Header = () => {
                 className="hover:text-[#2030e0] duration-300"
                 onClick={handleClose}
               >
-                About
+                About Us
               </li>
             </NavLink>
 
@@ -53,7 +53,7 @@ const Header = () => {
               className="hover:text-[#2030e0] duration-300"
               onClick={handleClose}
             >
-              <NavLink to="/contact">Contact</NavLink>
+              <NavLink to="/contact">Contact Us</NavLink>
             </li>
           </ul>
         </nav>
